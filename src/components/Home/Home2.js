@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,42 +20,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with poetry and the art of words, crafting verses that speak to the soul. 📝
               <br />
-              <br />I am fluent in classics like
+              <br />I am well-versed in the classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Sonnets, Haikus, and Free Verse. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My passion lies in exploring new forms of expression in the realm of
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Creative Writing and Poetry, </b> and
+                delving into themes of the human experience.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Whenever inspiration strikes, I pour my heart into crafting poems with <b className="purple"> pen and paper, </b>
+              weaving emotions into every line with care and precision.
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={'https://scontent.fcai19-3.fna.fbcdn.net/v/t39.30808-6/434459665_3620119791537771_6827752534362434466_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG4vY2bKZinIiBPJiLCaZ5C-T8JCC186wX5PwkILXzrBcu2mtDV2KphgHvSLR_WCKLbddD9mn-sDY5i7frACQCL&_nc_ohc=D91ZvQSV23EQ7kNvgG559Q0&_nc_ht=scontent.fcai19-3.fna&oh=00_AfBHAVp2TPOcCfbg1hDic-v6JQmkKuwskBgc2KQPfH8vog&oe=663ACEA6'} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,17 +55,17 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://facebook.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

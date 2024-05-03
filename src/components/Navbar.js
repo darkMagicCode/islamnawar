@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={'https://scontent.fcai19-3.fna.fbcdn.net/v/t1.6435-9/90970270_2545835468966214_4193938300714614784_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHQqmCXOlVO0BGAJ8vNu1iPAicfoniLh_gCJx-ieIuH-KcbLZgOkjRs3BTlfeRWxQinr8UgCh0WBbEEhxJ86vcJ&_nc_ohc=qbJCcDK2a7QQ7kNvgEh-lfG&_nc_ht=scontent.fcai19-3.fna&oh=00_AfADhnjp4fkXoysY4f-wWhIG-ugai3IlWD8E5Ul13Vbckg&oe=665C63D5'} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -82,7 +82,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -111,7 +111,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
